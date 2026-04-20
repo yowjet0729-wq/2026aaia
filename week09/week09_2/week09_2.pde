@@ -1,0 +1,13 @@
+//week09-2好玩的程式設計(互動的氣球)
+PImage img;//宣告變數(圖)
+void setup() {
+  size(600,500);
+  img =loadImage("balloon.png");
+}
+
+void draw(){
+  background(#FFFFF2);//背景是淡黃色
+  image(img,mouseX-96/2,mouseY-132,96,132);
+}
+//這裡座標，稍微改一下
+//讓手拿氣球下面綁起來地方
